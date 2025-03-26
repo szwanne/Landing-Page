@@ -12,6 +12,8 @@ html {
 .top-section {
     display: flex;
     flex-direction: column;
+    background-color: lightgray;
+    height: 40vh;
 }
 
 /* NAV-BAR SECTION */
@@ -56,5 +58,22 @@ a {
 button {
     width: 80px;
     height: 40px;
-    border-radius: 10%;
+    border-radius: 8px;
+}
+
+.top-container {
+    display: flex;
+    background-color: bisque;
+    padding: 50px;
+    justify-content: center;
+    gap: 10px;
+}
+
+.text {
+    display: flex;
+    flex-direction: column;
+    text-wrap: wrap;
+    justify-content: space-around;
+    gap: 10px;
+    width: 500px;
 }
