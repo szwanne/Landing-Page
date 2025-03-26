@@ -2,3 +2,59 @@
     padding: 0;
     margin: 0;
 }
+
+html {
+    box-sizing: border-box;
+    font-family: Arial, Helvetica, sans-serif;
+}
+
+/* TOP-SECTION */
+.top-section {
+    display: flex;
+    flex-direction: column;
+}
+
+/* NAV-BAR SECTION */
+
+.nav-bar {
+    background-color: green;
+    display: flex;
+    justify-content: space-between;
+}
+
+.left-links {
+    display: flex;
+    background-color: red;
+    padding: 5px;
+    width: 200px;
+    list-style: none;
+    gap: 5px;
+    align-items: center;
+}
+
+a {
+    text-decoration: none;
+}
+
+.middle-links {
+    display: flex;
+    background-color: yellow;
+    justify-content: space-between;
+    width: 500px;
+    list-style: none;
+    align-items: center;
+}
+
+.right-links {
+    display: flex;
+    background-color: aquamarine;
+    justify-content: space-between;
+    gap: 10px;
+    padding: 10px;
+}
+
+button {
+    width: 80px;
+    height: 40px;
+    border-radius: 10%;
+}
