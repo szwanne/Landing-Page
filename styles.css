@@ -77,3 +77,26 @@ button {
     gap: 10px;
     width: 500px;
 }
+
+/* MAIN SECTION */
+.main-container {
+    display: flex;
+    flex-direction: column;
+}
+
+.main-top {
+    display: flex;
+    gap: 10px;
+    justify-content: space-evenly;
+    margin-bottom: 50px;
+    box-sizing: border-box;
+}
+
+.short-menu {
+    display: flex;
+    justify-content: space-around;
+}
+
+.view-menu {
+    margin-top: 10px;
+}
