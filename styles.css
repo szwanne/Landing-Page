@@ -128,3 +128,29 @@ button {
 .fa {
     color: black;
 }
+
+/*BUTTONS */
+
+button {
+    background-color: #2085D8;
+    border-radius: 6px;
+    color: #ffffff;
+    cursor: pointer;
+    overflow: hidden;
+    vertical-align: top;
+    white-space: nowrap;
+}
+
+button:hover {
+    background-color: #0B47E4;
+    color: black;
+    transition: ease-in-out 0.2s;
+    transform: scale(1.1);
+
+}
+
+
+
+button.reserve-now, button.view-menu {
+    width: 10vw;
+}
