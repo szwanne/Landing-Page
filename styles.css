@@ -103,18 +103,51 @@ img {
     display: flex;
     gap: 10px;
     justify-content: space-evenly;
-    margin-bottom: 50px;
+    margin-top: 15px;
+    align-items: center;
+    height: 100px;
+    margin: 30px;
 }
 
 .short-menu {
     display: flex;
     justify-content: space-around;
+    margin-top: 30px;
 }
 
 .view-menu {
     margin-top: 10px;
 }
 
+.main-header h2 {
+    color: #1F2937;
+    text-wrap: wrap;
+}
+
+.main-header {
+    width: 583px;
+    height: 74px;
+}
+
+.menu-text {
+    word-break: break-all;
+    white-space: normal;
+    width: 485px;
+    text-wrap: wrap;
+}
+
+
+.item-1,
+.item-2,
+.item-3,
+.item-4 {
+    display: flex;
+    flex-direction: column;
+    gap: 10px;
+    font-family: Roboto;
+    font-size: 18px;
+    font-weight: bold;
+}
 /*FOOTER SECTION */
 
 .footer {
