@@ -8,6 +8,11 @@ html {
     font-family: Arial, Helvetica, sans-serif;
 }
 
+body {
+    width: 100vw;
+    height: 100vh;
+}
+
 /* TOP-SECTION */
 .top-section {
     display: flex;
@@ -53,6 +58,7 @@ a {
     justify-content: space-between;
     gap: 10px;
     padding: 10px;
+    color: black;
 }
 
 button {
@@ -89,7 +95,6 @@ button {
     gap: 10px;
     justify-content: space-evenly;
     margin-bottom: 50px;
-    box-sizing: border-box;
 }
 
 .short-menu {
@@ -99,4 +104,27 @@ button {
 
 .view-menu {
     margin-top: 10px;
+}
+
+/*FOOTER SECTION */
+
+.footer {
+    margin-top: 110px;
+}
+
+.copyright {
+    text-align: center;
+    margin-top: 5px;
+}
+
+.social-media-container {
+    display: flex;
+    width: 150px;
+    justify-content: space-around;
+    align-items: center;
+    color: black;
+}
+
+.fa {
+    color: black;
 }
