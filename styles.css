@@ -17,21 +17,27 @@ body {
 .top-section {
     display: flex;
     flex-direction: column;
-    background-color: lightgray;
+    background-color: #1F2937;
     height: 40vh;
+    font-family: Roboto;
+}
+
+h2 {
+    color: #F9FAF8;
+    font-size: 32px;
 }
 
 /* NAV-BAR SECTION */
 
 .nav-bar {
-    background-color: green;
     display: flex;
     justify-content: space-between;
+    margin: 30px;
+    font-size: 24px;
 }
 
 .left-links {
     display: flex;
-    background-color: red;
     padding: 5px;
     width: 200px;
     list-style: none;
@@ -41,11 +47,12 @@ body {
 
 a {
     text-decoration: none;
+    color: #F9FAF8;
+
 }
 
 .middle-links {
     display: flex;
-    background-color: yellow;
     justify-content: space-between;
     width: 500px;
     list-style: none;
@@ -54,7 +61,6 @@ a {
 
 .right-links {
     display: flex;
-    background-color: aquamarine;
     justify-content: space-between;
     gap: 10px;
     padding: 10px;
@@ -69,7 +75,6 @@ button {
 
 .top-container {
     display: flex;
-    background-color: bisque;
     padding: 50px;
     justify-content: center;
     gap: 10px;
@@ -82,8 +87,12 @@ button {
     justify-content: space-around;
     gap: 10px;
     width: 500px;
-}
+    color:#F9FAF8;
 
+}
+img {
+    border-radius: 6px;
+}
 /* MAIN SECTION */
 .main-container {
     display: flex;
@@ -148,8 +157,6 @@ button:hover {
     transform: scale(1.1);
 
 }
-
-
 
 button.reserve-now, button.view-menu {
     width: 10vw;
