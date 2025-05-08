@@ -17,3 +17,21 @@ btnCloseModal.addEventListener("click", function () {
   modal.classList.add("hidden"); //This will hide the modal window when the close btn is pressed
   overlay.classList.add("hidden"); //This will hide the overlay window when the close btn is pressed
 });
+
+// Adding event handlers to the overlay window to show the modal window when clicked
+
+overlay.addEventListener("click", function () {
+  modal.classList.add("hidden"); //This will hide the modal window when the close btn is pressed
+  overlay.classList.add("hidden"); //This will hide the overlay window when the close btn is pressed
+});
+
+///Adding the press key event, when clicking an escape button the modal window should be removed
+
+document.addEventListener("keydown", function (e) {
+  if (e.key === "Escape") {
+    if (!modal.classList.contains("hidden")) {
+      modal.classList.add("hidden");
+      overlay.classList.add("hidden");
+    }
+  }
+});
