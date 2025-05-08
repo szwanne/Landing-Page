@@ -10,3 +10,10 @@ btnReserveNow.addEventListener("click", function () {
   modal.classList.remove("hidden"); //This will remove the hidden class name and show the modal window
   overlay.classList.remove("hidden"); //This will remove the hidden class name and show the overlay window
 });
+
+// Adding event handlers to the close button to show the modal window when clicked
+
+btnCloseModal.addEventListener("click", function () {
+  modal.classList.add("hidden"); //This will hide the modal window when the close btn is pressed
+  overlay.classList.add("hidden"); //This will hide the overlay window when the close btn is pressed
+});
