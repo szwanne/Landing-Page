@@ -180,7 +180,8 @@ img {
 }
 /*BUTTONS */
 
-button {
+button,
+.submit_form {
   background-color: #2085d8;
   border-radius: 6px;
   color: #ffffff;
@@ -190,7 +191,8 @@ button {
   white-space: nowrap;
 }
 
-button:hover {
+button:hover,
+.submit_form:hover {
   background-color: #0b47e4;
   color: black;
   transition: ease-in-out 0.2s;
@@ -261,4 +263,37 @@ a:hover,
   background-color: rgba(0, 0, 0, 0.6);
   backdrop-filter: blur(3px);
   z-index: 5;
+}
+
+/* MODAL FORM */
+
+.main-form {
+  background-color: #1f2937;
+  display: flex;
+  flex-direction: column;
+  /* justify-content:; */
+  align-items: center;
+  gap: 10px;
+  max-width: 500px;
+  margin-left: auto;
+  margin-right: auto;
+  min-height: 320px;
+  border-radius: 6px;
+  color: #fff;
+}
+
+input.full_name,
+input.date_,
+input.number_of_people {
+  width: 200px;
+  height: 35px;
+  margin-top: 10px;
+  padding-left: 5px;
+}
+
+input.submit_form {
+  width: 150px;
+  height: 30px;
+  border-radius: 10px;
+  cursor: pointer;
 }

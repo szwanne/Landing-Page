@@ -161,26 +161,31 @@
     </div>
     <div class="modal hidden">
       <button class="close-modal">&times;</button>
-      <h1>Reservation Form 😍</h1>
+      <!-- <h1>Reservation Form 😍</h1> -->
       <form>
         <div class="main-form">
+          <h1>Reservation Form 😍</h1>
           <div class="fullname">
             <p>Full Name</p>
-            <input type="text" value="Name Surname" />
+            <input type="text" placeholder=" Name Surname" class="full_name" />
           </div>
 
           <div class="date">
             <p>Date</p>
-            <input type="text" value="dd/mm/yyyy" />
+            <input type="text" placeholder=" DD/MM/YYYY" class="date_" />
           </div>
 
           <div class="numberofpeople">
             <p>No. of people</p>
-            <input type="text" value="" />
+            <input
+              type="text"
+              placeholder=" Limit of 12"
+              class="number_of_people"
+            />
           </div>
 
           <div class="submit-form">
-            <input type="button" value="Submit" />
+            <input type="button" value="Submit" class="submit_form" />
           </div>
         </div>
       </form>
