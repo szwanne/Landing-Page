@@ -37,10 +37,55 @@ body {
 input {
   width: 200px;
   height: 40px;
+  border-radius: 5px;
+}
+
+placeholder {
+  margin-left: 10px;
 }
 
 /*SUBMIT BUTTON */
 
 .submit-btn {
   margin-top: 10px;
+}
+
+btn {
+  background-color: #2085d8;
+  border-radius: 6px;
+  color: #ffffff;
+  cursor: pointer;
+  overflow: hidden;
+  vertical-align: top;
+  white-space: nowrap;
+}
+
+button:hover,
+.submit_form:hover {
+  background-color: #0b47e4;
+  color: black;
+  transition: ease-in-out 0.2s;
+  transform: scale(1.1);
+}
+
+button.reserve-now,
+button.view-menu {
+  width: 10vw;
+}
+
+/*SOCIAL ICONS */
+
+.ext-links {
+  display: flex;
+  width: 150px;
+  justify-content: space-around;
+  align-items: center;
+  color: black;
+  margin-top: 40px;
+}
+
+.fa {
+  color: black;
+  width: 20px;
+  height: 20px;
 }
