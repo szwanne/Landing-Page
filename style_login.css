@@ -29,7 +29,6 @@ body {
   display: flex;
   flex-direction: column;
   align-items: center;
-  justify-content: center;
 }
 
 /*INPUT */
@@ -37,10 +36,4 @@ body {
 input {
   width: 200px;
   height: 40px;
-}
-
-/*SUBMIT BUTTON */
-
-.submit-btn {
-  margin-top: 10px;
 }
