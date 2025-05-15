@@ -1,0 +1,40 @@
+/* OVERALL PAGE LAYOUT */
+
+* {
+  padding: 0;
+  margin: 0;
+}
+
+body {
+  min-height: 100vh;
+  max-width: 100vw;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
+
+/* MAIN CONTAINER */
+
+.main-container {
+  background-color: lightgreen;
+  border: 1px solid #555;
+  min-width: 800px;
+  min-height: 450px;
+  line-height: 30px;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+}
+
+/*INPUT */
+
+input {
+  width: 200px;
+  height: 40px;
+}
+
+/*SUBMIT BUTTON */
+
+.submit-btn {
+  margin-top: 10px;
+}
