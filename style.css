@@ -23,13 +23,15 @@ body {
 .main-container {
   background-color: lightgreen;
   border: 1px solid #555;
-  min-width: 800px;
-  min-height: 500px;
+  /* min-width: 800px; */
+  /* min-height: 500px; */
   line-height: 30px;
   display: flex;
   flex-direction: column;
   align-items: center;
   justify-content: center;
+  max-width: 50%;
+  min-height: 100vh;
 }
 
 /*INPUT */
@@ -96,7 +98,7 @@ button.view-menu {
   /* display: flex;
   flex-direction: column; */
   /* background-color: #1f2937; */
-  height: 40vh;
+  height: 5vh;
   font-family: Roboto;
   background-color: lemonchiffon;
 }
@@ -120,4 +122,10 @@ a {
   display: flex;
   gap: 20px;
   align-items: center;
+}
+
+/* OVERALL CONTAINER */
+
+.overall-container {
+  display: flex;
 }
