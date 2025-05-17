@@ -140,3 +140,18 @@ a {
   width: 50vw;
   height: 100vh;
 }
+
+/* BUTTON */
+
+button {
+  background-color: #2085d8;
+  border-radius: 6px;
+  color: #ffffff;
+  cursor: pointer;
+  overflow: hidden;
+  vertical-align: top;
+  white-space: nowrap;
+  width: 80px;
+  height: 40px;
+  margin-top: 20px;
+}
