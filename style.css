@@ -30,8 +30,8 @@ body {
   flex-direction: column;
   align-items: center;
   justify-content: center;
-  max-width: 50%;
-  min-height: 100vh;
+  min-width: 50%;
+  min-height: auto;
 }
 
 /*INPUT */
@@ -101,6 +101,7 @@ button.view-menu {
   height: 5vh;
   font-family: Roboto;
   background-color: lemonchiffon;
+  min-width: 50%;
 }
 
 .nav-bar {
@@ -128,4 +129,14 @@ a {
 
 .overall-container {
   display: flex;
+  background-color: aqua;
+  min-height: 100vh;
+  gap: 1px;
+}
+
+/* IMAGE COVER */
+.image-container img {
+  object-fit: cover;
+  width: 50vw;
+  height: 100vh;
 }
