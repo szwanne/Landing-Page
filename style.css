@@ -155,3 +155,24 @@ button {
   height: 40px;
   margin-top: 20px;
 }
+
+/*SOCIAL ICONS */
+
+.ext-links a {
+  display: inline-block;
+  width: 40px;
+  height: 40px;
+  margin: 0 5px;
+  background-color: white;
+  color: white;
+  border-radius: 50%;
+  text-align: center;
+  line-height: 40px;
+  font-size: 20px;
+  transition: background-color 0.3s ease;
+  text-decoration: none;
+}
+
+.ext-links a:hover {
+  background-color: #333; /* Slightly lighter black */
+}
