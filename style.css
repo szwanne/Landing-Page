@@ -23,15 +23,13 @@ body {
 .main-container {
   background-color: lightgreen;
   border: 1px solid #555;
-  /* min-width: 800px; */
-  /* min-height: 500px; */
   line-height: 30px;
   display: flex;
   flex-direction: column;
   align-items: center;
-  justify-content: center;
+  justify-content: space-evenly;
   min-width: 50%;
-  min-height: auto;
+  min-height: 625px;
 }
 
 /*INPUT */
@@ -39,20 +37,16 @@ body {
 input {
   width: 200px;
   height: 40px;
-  border-radius: 5px;
+  border-radius: 30px;
 }
-
-placeholder {
-  margin-left: 10px;
+.text,
+.number {
+  padding-left: 15px;
 }
 
 /*SUBMIT BUTTON */
 
-.submit-btn {
-  margin-top: 10px;
-}
-
-btn {
+/* .signup {
   background-color: #2085d8;
   border-radius: 6px;
   color: #ffffff;
@@ -60,11 +54,11 @@ btn {
   overflow: hidden;
   vertical-align: top;
   white-space: nowrap;
-}
+} */
 
 button:hover,
 .submit_form:hover {
-  background-color: #0b47e4;
+  /* background-color: #0b47e4; */
   color: black;
   transition: ease-in-out 0.2s;
   transform: scale(1.1);
@@ -83,7 +77,6 @@ button.view-menu {
   justify-content: space-around;
   align-items: center;
   color: black;
-  margin-top: 40px;
 }
 
 .fa {
@@ -144,16 +137,24 @@ a {
 /* BUTTON */
 
 button {
+  border-radius: 20px;
+  cursor: pointer;
+  overflow: hidden;
+  vertical-align: top;
+  white-space: nowrap;
+  width: 120px;
+  height: 40px;
+  margin-top: 20px;
+}
+
+.signup {
   background-color: #2085d8;
-  border-radius: 6px;
   color: #ffffff;
   cursor: pointer;
   overflow: hidden;
   vertical-align: top;
   white-space: nowrap;
-  width: 80px;
-  height: 40px;
-  margin-top: 20px;
+  border-radius: 10px;
 }
 
 /*SOCIAL ICONS */
@@ -175,4 +176,24 @@ button {
 
 .ext-links a:hover {
   background-color: #333; /* Slightly lighter black */
+}
+
+/*SPAN*/
+
+span.white-line {
+  display: block;
+  width: 10%;
+  background-color: white;
+  height: 2.5px;
+}
+.text-container {
+  display: flex;
+  justify-content: center;
+  min-width: 600px;
+  align-items: center;
+  gap: 10px;
+}
+
+.email-text {
+  max-width: 300px;
 }
