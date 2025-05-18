@@ -21,8 +21,8 @@ body {
 /* MAIN CONTAINER */
 
 .main-container {
-  background-color: lightgreen;
-  border: 1px solid #555;
+  /* background-color: lightgreen; */
+  /* border: 1px solid #555; */
   line-height: 30px;
   display: flex;
   flex-direction: column;
@@ -38,6 +38,8 @@ input {
   width: 200px;
   height: 40px;
   border-radius: 30px;
+  outline: none;
+  border: 0.1px solid #555;
 }
 .text,
 .number {
@@ -45,16 +47,6 @@ input {
 }
 
 /*SUBMIT BUTTON */
-
-/* .signup {
-  background-color: #2085d8;
-  border-radius: 6px;
-  color: #ffffff;
-  cursor: pointer;
-  overflow: hidden;
-  vertical-align: top;
-  white-space: nowrap;
-} */
 
 button:hover,
 .submit_form:hover {
@@ -88,12 +80,8 @@ button.view-menu {
 /* NAV BAR */
 
 .top-section {
-  /* display: flex;
-  flex-direction: column; */
-  /* background-color: #1f2937; */
-  height: 5vh;
   font-family: Roboto;
-  background-color: lemonchiffon;
+  background-color: #e5e7eb;
   min-width: 50%;
 }
 
@@ -110,6 +98,11 @@ li {
 
 a {
   text-decoration: none;
+  color: black;
+}
+
+.login {
+  color: blue;
 }
 
 .left-links {
@@ -124,7 +117,6 @@ a {
   display: flex;
   background-color: aqua;
   min-height: 100vh;
-  gap: 1px;
 }
 
 /* IMAGE COVER */
@@ -175,7 +167,7 @@ button {
 }
 
 .ext-links a:hover {
-  background-color: #333; /* Slightly lighter black */
+  background-color: rgb(236, 153, 236); /* Slightly lighter black */
 }
 
 /*SPAN*/
@@ -196,4 +188,13 @@ span.white-line {
 
 .email-text {
   max-width: 300px;
+}
+
+/* HOVER EFFECT */
+
+a:hover,
+.footer .left-links a:hover,
+.footer .middle-links a:hover {
+  color: rgb(236, 153, 236);
+  transition: ease-in 0.2s;
 }
