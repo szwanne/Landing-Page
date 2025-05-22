@@ -5,4 +5,82 @@
 
 body {
   background-color: lightgreen;
+  width: 100vw;
+  height: 100vh;
+}
+
+/* NAV BAR SECTION */
+.nav-bar {
+  display: flex;
+  justify-content: space-between;
+  margin: 30px;
+  font-size: 24px;
+}
+
+.left-links {
+  display: flex;
+  padding: 5px;
+  width: 200px;
+  list-style: none;
+  gap: 5px;
+  align-items: center;
+}
+
+a {
+  text-decoration: none;
+  color: #f9faf8;
+}
+
+.middle-links {
+  display: flex;
+  justify-content: space-between;
+  width: 500px;
+  list-style: none;
+  align-items: center;
+}
+
+.right-links {
+  display: flex;
+  justify-content: space-between;
+  gap: 10px;
+  padding: 10px;
+  color: black;
+}
+
+button {
+  width: 80px;
+  height: 40px;
+  border-radius: 8px;
+}
+
+/*FOOTER SECTION */
+
+.footer {
+  margin-top: 0px;
+  background-color: #e5e7eb;
+  /* position: absolute; */
+  bottom: 0;
+  width: 100%;
+}
+
+.copyright {
+  text-align: center;
+  margin-bottom: 10px;
+}
+
+.social-media-container {
+  display: flex;
+  width: 150px;
+  justify-content: space-around;
+  align-items: center;
+  color: black;
+}
+
+.fa {
+  color: black;
+}
+.footer .left-links a,
+.footer .middle-links a {
+  color: #1f2937;
+  font-size: 20px;
 }
