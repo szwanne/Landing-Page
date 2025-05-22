@@ -101,12 +101,15 @@ button {
   min-width: 300px;
 }
 
-.text-header h1 {
-  font-weight: 600px;
-}
-
 .text-paragraph {
   max-width: 500px;
   border: 1px solid #555;
   line-height: 30px;
+}
+
+.arrow {
+  background-color: aqua;
+  display: flex;
+  gap: 15px;
+  margin-bottom: 20px;
 }
