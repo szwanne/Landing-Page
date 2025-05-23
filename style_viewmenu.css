@@ -120,3 +120,67 @@ button {
   min-width: fit-content;
   justify-content: center;
 }
+
+/* MENU SECTION */
+
+.menu-section {
+  display: flex;
+  flex-direction: column;
+  background-color: lightcoral;
+  padding: 50px;
+  align-items: center;
+}
+
+.menu-text {
+  text-align: center;
+}
+
+.menu-text p {
+  max-width: 50%;
+  text-wrap: wrap;
+  background-color: lightseagreen;
+  margin-left: auto;
+  margin-right: auto;
+  margin-bottom: 30px;
+  margin-top: 10px;
+}
+
+.food-categories input {
+  width: 80px;
+  height: 40px;
+  border-radius: 8px;
+}
+
+.food-categories {
+  background-color: lightblue;
+  width: 800px;
+  display: flex;
+  gap: 30px;
+  justify-content: center;
+}
+
+.food-container {
+  display: flex;
+  gap: 60px;
+  width: 100%;
+  background-color: lightgrey;
+  margin-top: 20px;
+  justify-content: center;
+  align-items: center;
+}
+
+.food-price {
+  display: flex;
+  gap: 30px;
+  justify-content: space-between;
+}
+
+.item-1,
+.item-2,
+.item-3,
+.item-4 {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  gap: 10px;
+}
