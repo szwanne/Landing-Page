@@ -116,6 +116,7 @@ button {
 
 .image-container {
   display: flex;
-  gap: 10px;
+  gap: 25px;
   min-width: fit-content;
+  justify-content: center;
 }
