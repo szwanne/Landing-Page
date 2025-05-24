@@ -4,7 +4,7 @@
 }
 
 body {
-  background-color: lightgreen;
+  background-color: #e5e7eb;
   width: 100vw;
   height: 100vh;
 }
@@ -65,7 +65,7 @@ button {
 
 .copyright {
   text-align: center;
-  margin-bottom: 10px;
+  font-size: 18px;
 }
 
 .social-media-container {
@@ -127,6 +127,7 @@ button {
   font-size: 40px;
   font-weight: 900;
 }
+
 /* MENU SECTION */
 
 .menu-section {
