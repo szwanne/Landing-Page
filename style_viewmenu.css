@@ -217,3 +217,7 @@ button {
 .drinks .arrow {
   align-self: center;
 }
+
+.drinks-type h1 {
+  font-size: 40px;
+}
