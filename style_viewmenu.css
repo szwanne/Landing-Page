@@ -222,7 +222,7 @@ button {
   display: block;
   width: 100%;
   height: 2px;
-  background-color: black;
+  background-color: #555;
   margin: 10px 0;
 }
 
@@ -232,4 +232,42 @@ button {
 
 .drinks-type h1 {
   font-size: 40px;
+}
+
+.drinks-type > h1 > a {
+  color: black;
+}
+
+/*HOVER EFFECTS */
+
+button:hover {
+  background-color: #0b47e4;
+  transition: ease-in-out 0.2s;
+  transform: scale(1.1);
+}
+
+.middle-links > li > a:hover {
+  color: #1165da;
+}
+
+.left-arrow:hover,
+.right-arrow:hover {
+  transition: ease-in-out 0.2s;
+  transform: scale(1.2);
+}
+
+.btn-1:hover,
+.btn-2:hover,
+.btn-3:hover,
+.btn-4:hover,
+.btn-5:hover,
+.btn-6:hover {
+  background-color: #0b47e4;
+  transition: ease-in-out 0.2s;
+  transform: scale(1.1);
+  color: #e5e7eb;
+}
+
+.drinks-type > h1 > a:hover {
+  color: #1165da;
 }
