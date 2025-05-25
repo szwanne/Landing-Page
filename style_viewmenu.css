@@ -41,7 +41,7 @@ a {
 
 .middle-links li a,
 .left-links li a {
-  color: black !important;
+  color: black;
 }
 
 .right-links {
@@ -68,7 +68,7 @@ button {
 
 .footer {
   margin-top: 0px;
-  background-color: #e5e7eb;
+  /* background-color: #e5e7eb; */
   /* position: absolute; */
   bottom: 0;
   width: 100%;
@@ -99,7 +99,7 @@ button {
 /* TOP SECTION */
 
 .intro-section {
-  background-color: lightgrey;
+  /* background-color: lightgrey; */
   min-height: 25vh;
   display: flex;
   justify-content: center;
@@ -114,13 +114,13 @@ button {
 
 .text-paragraph {
   max-width: 500px;
-  border: 1px solid #555;
+  /* border: 1px solid #555; */
   line-height: 30px;
   padding: 20px;
 }
 
 .arrow {
-  background-color: aqua;
+  /* background-color: aqua; */
   display: flex;
   gap: 15px;
   margin-bottom: 20px;
@@ -144,7 +144,7 @@ button {
 .menu-section {
   display: flex;
   flex-direction: column;
-  background-color: lightcoral;
+  /* background-color: lightcoral; */
   padding: 50px;
   align-items: center;
 }
@@ -156,7 +156,7 @@ button {
 .menu-text p {
   max-width: 50%;
   text-wrap: wrap;
-  background-color: lightseagreen;
+  /* background-color: lightseagreen; */
   margin-left: auto;
   margin-right: auto;
   margin-bottom: 30px;
@@ -170,7 +170,7 @@ button {
 }
 
 .food-categories {
-  background-color: lightblue;
+  /* background-color: lightblue; */
   width: 800px;
   display: flex;
   gap: 30px;
@@ -181,7 +181,7 @@ button {
   display: flex;
   gap: 60px;
   width: 100%;
-  background-color: lightgrey;
+  /* background-color: lightgrey; */
   margin-top: 20px;
   justify-content: center;
   align-items: center;
@@ -213,7 +213,7 @@ button {
 }
 
 .drinks-type {
-  background-color: lightgoldenrodyellow;
+  /* background-color: lightgoldenrodyellow; */
   min-width: 400px;
   align-self: center;
 }
@@ -268,6 +268,7 @@ button:hover {
   color: #e5e7eb;
 }
 
-.drinks-type > h1 > a:hover {
+.drinks-type > h1 > a:hover,
+.left-links > li > a:hover {
   color: #1165da;
 }
