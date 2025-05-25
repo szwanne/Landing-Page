@@ -28,7 +28,7 @@ body {
 
 a {
   text-decoration: none;
-  color: #f9faf8;
+  color: white;
 }
 
 .middle-links {
@@ -37,6 +37,11 @@ a {
   width: 500px;
   list-style: none;
   align-items: center;
+}
+
+.middle-links li a,
+.left-links li a {
+  color: black !important;
 }
 
 .right-links {
@@ -51,6 +56,12 @@ button {
   width: 80px;
   height: 40px;
   border-radius: 8px;
+  background-color: #2085d8;
+  border-radius: 6px;
+  cursor: pointer;
+  overflow: hidden;
+  vertical-align: top;
+  white-space: nowrap;
 }
 
 /*FOOTER SECTION */
