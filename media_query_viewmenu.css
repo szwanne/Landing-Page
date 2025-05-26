@@ -1,0 +1,15 @@
+@media screen and (max-width: 1628px) {
+  .top-section {
+    min-width: auto;
+  }
+  .image-container {
+    max-width: 80%;
+  }
+  .food-container {
+    max-width: 50%;
+    gap: auto;
+  }
+  .food-container .left-arrow {
+    margin-left: 20px;
+  }
+}

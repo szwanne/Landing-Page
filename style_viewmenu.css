@@ -130,7 +130,7 @@ button {
 .image-container {
   display: flex;
   gap: 25px;
-  min-width: fit-content;
+  max-width: 90%;
   justify-content: center;
 }
 
@@ -139,6 +139,9 @@ button {
   font-weight: 900;
 }
 
+.top-section {
+  min-width: 85%;
+}
 /* MENU SECTION */
 
 .menu-section {
@@ -180,7 +183,7 @@ button {
 .food-container {
   display: flex;
   gap: 60px;
-  width: 100%;
+  max-width: 100%;
   /* background-color: lightgrey; */
   margin-top: 20px;
   justify-content: center;
