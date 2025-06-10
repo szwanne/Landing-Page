@@ -1,15 +1,27 @@
-@media screen and (max-width: 1628px) {
+@media screen and (max-width: 1608px) {
   .top-section {
     min-width: auto;
   }
   .image-container {
-    max-width: 80%;
+    max-width: 100%;
   }
+
+  img.food-place {
+    width: 70%;
+  }
+
   .food-container {
-    max-width: 50%;
+    max-width: 30%;
     gap: auto;
   }
   .food-container .left-arrow {
-    margin-left: 20px;
+    margin-left: 0px;
+  }
+  .item-1 img,
+  .item-2 img,
+  .item-3 img,
+  .item-4 img {
+    width: 235.2px;
+    height: auto;
   }
 }
